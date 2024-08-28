@@ -157,7 +157,7 @@ a:hover {
 
 /* SECTIONS */
 section:not(#projects) {
-  height: 96vh;
+  min-height: 96vh;
 }
 section {
   padding-top: 4vh;
