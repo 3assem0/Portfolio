@@ -442,3 +442,9 @@ footer {
 footer p {
   text-align: center;
 }
+.btnbared{
+  color: black;
+}
+.btnbared:hover{
+  color: rgb(255, 255, 255);
+}
