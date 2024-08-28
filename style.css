@@ -6,9 +6,20 @@
   margin: 0;
   padding: 0;
 }
+.bgout{
 
+}
 body {
   font-family: "Poppins", sans-serif;
+  /* z-index: -1; */
+  /* width: 100%;
+  height: 100%; */
+  background-color: #10101000;
+  background-image: url(imgs/bg.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  /* z-index: 1; */
 }
 
 html {
