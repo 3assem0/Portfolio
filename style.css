@@ -156,10 +156,9 @@ a:hover {
 }
 
 /* SECTIONS */
-section:not(#projects) {
-  min-height: 96vh;
-}
+
 section {
+  min-height: 96vh;
   padding-top: 4vh;
   margin: 0 10rem;
   box-sizing: border-box;
