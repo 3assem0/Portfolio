@@ -147,10 +147,11 @@ a:hover {
 }
 
 /* SECTIONS */
-
+section:not(#projects) {
+  height: 96vh;
+}
 section {
   padding-top: 4vh;
-  height: 96vh;
   margin: 0 10rem;
   box-sizing: border-box;
   min-height: fit-content;
@@ -367,7 +368,7 @@ article .icon {
 .project-img {
   border-radius: 2rem;
   width: 90%;
-  height: 90%;
+  height: auto;
 }
 
 .project-title {
@@ -387,6 +388,8 @@ article .icon {
   justify-content: center;
   flex-direction: column;
   height: 70vh;
+  /* background-color: aqua; */
+  z-index: 1000;
 }
 
 .contact-info-upper-container {
