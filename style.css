@@ -286,7 +286,16 @@ section {
   justify-content: center;
   flex-direction: column;
 }
+.excon{
+  max-width: 1000px;
 
+}
+.excon2{
+ width: 100%;
+ align-items: center;
+ justify-content: center;
+
+}
 .about-containers,
 .about-details-container {
   display: flex;
